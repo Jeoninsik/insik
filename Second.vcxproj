@@ -130,7 +130,15 @@
     <ClCompile Include="Second.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="arrayGugu.h" />
+    <ClInclude Include="bubbleSort.h" />
     <ClInclude Include="gugudan.h" />
+    <ClInclude Include="Lotto.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="pointerArray.h" />
+    <ClInclude Include="structPointer.h" />
+    <ClInclude Include="sumArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
